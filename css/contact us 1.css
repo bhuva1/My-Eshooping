@@ -1,0 +1,177 @@
+﻿/*
+
+contact Us form by Ujjal Kar
+
+
+color: #3125AF; purple
+color: #BE6CD3; pink
+
+
+ */
+
+html body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: 'Nunito', sans-serif;
+	color: #000;
+}
+
+.heading {
+	/*position: absolute;*/
+    width: 100%;
+    height: 35%;
+    background-image: linear-gradient(to right, #3125AF, #BE6CD3);
+   	min-height: 260px;
+   	overflow: hidden
+   	
+
+}
+
+.heading h3 {
+	font-size: 2.5rem;
+    text-align: center;
+    margin: 0px;
+    margin-top: 2rem;
+    color: #fff;
+    
+}
+
+.heading span.heading-medium {
+	display: block;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #39CCCC;
+}
+
+.heading span.heading-small {
+	  display: block;
+    width: 50%;
+    text-align: center;
+    margin-left: 26rem;
+    margin-top: 60px;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #1be4d5;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.input {
+	flex: auto;
+	box-sizing: border-box;
+    margin-left: 271px;
+}
+
+.suggest {
+	flex: auto;
+	box-sizing: border-box;
+    margin-right: 350px;
+}
+
+.input h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.suggest h3 {
+	font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.icons {
+    width: 28px;
+}
+
+label {
+    color: #aaa;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.float {
+	float: left;
+	margin-right: 73px;
+}
+
+
+.float:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 2px solid #ababaa;
+    padding: 5px 0;
+    transition: all .3s;
+}
+input[type="text"] {
+	width: 118%;;
+}
+input[type="email"] {
+	width: 40%;
+}
+
+
+input[type="text"]#message {
+	border: none;
+    border-bottom: 2px solid #ababaa;
+    padding: 5px 0;
+    transition: all .3s;
+    width: 90%;
+}
+
+input[type="text"]#message:focus {
+	outline: none;
+    border-bottom: 2px solid #534cb6;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border-bottom: 2px solid #534cb6;
+}
+#btngrp {
+	padding: 40px 0
+}
+
+.btn {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #3125AF, #BE6CD3);
+    text-align: center;
+	display: block;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.btn:hover {
+	box-shadow: 0 7px 15px rgba(0, 0, 0, .4);
+}
+
+.suggest h4 {
+	margin-top: 0;
+}
